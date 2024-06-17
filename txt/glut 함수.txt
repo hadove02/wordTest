@@ -1,0 +1,21 @@
+glClear : 색상 버퍼를 비움
+glFlush : 요청된 모든 명령 실행, 버퍼를 비움
+glutInit : GLUT Library 초기화 및 윈도우와 운영체제 세션 연결
+glutInitDisplayMode : 윈도우 컬러 모드 설정
+glutInitWindowPosition : 윈도우 위치 설정
+glutInitWindowSize : 윈도우 크기 설정
+glutCreateWindow : 새로운 윈도우 생성
+glutSetWindowTitle : 윈도우 타이틀 설정
+glutMainLoop : GLUT 이벤트 처리 Loop 시작
+glutPostRedisplay : 현재 윈도우 화면을 다시 그리도록 설정
+glutSwapBuffers : 더블 버퍼링에서 현재 윈도우의 버퍼를 교환
+glutDisplayFunc : Display 처리를 위한 콜백 설정
+glutMouseFunc : Mouse 클릭 처리를 위한 콜백 설정
+glutMotionFunc : Mouse 이동 처리를 위한 콜백 설정
+glutKeyboardFunc : KeyBoard 입력 처리를 위한 콜백 설정
+glutSpecialFunc : 특수 KeyBoard 입력 처리를 위한 콜백 설정
+glutTimerFunc : 타이머 처리를 위한 콜백 설정
+glutWireSpherer : 구 (radius, slices, statcks)
+glutWireCube : 정육면체 (size)
+glutWireCone : 원뿔 (base, height, slices, stacks)
+glutWireTorus : 원환체 (innerRadius, outerRadius, nsides, rings)
